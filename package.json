@@ -2,7 +2,7 @@
   "name": "react-pwa-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dleged.github.io/react-pwa-page/build",
+  "homepage": "https://dleged.github.io/react-pwa-page",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -13,7 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-pwa": "http-server ./build"
+    "start-pwa": "http-server ./build",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,6 +26,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "http-server": "^0.11.1"
   }
 }
