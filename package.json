@@ -2,7 +2,7 @@
   "name": "react-pwa-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dleged.github.io/react-pwa-page",
+  "homepage": "https://dleged.github.io/react-pwa-page/build",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
