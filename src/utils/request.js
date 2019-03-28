@@ -1,4 +1,4 @@
-let num = num || 1;
+let num = 1;
 
 const httpRequest = (url,callback) => {
 	let xhr = new XMLHttpRequest();
