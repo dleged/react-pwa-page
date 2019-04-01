@@ -1,0 +1,25 @@
+1.标准CSS的盒子模型；
+2.说说flex布局；
+3.一个div左右居中；
+4.position的值relative和absolute定位参照；
+5.CSS权重优先级是如何计算的；
+6.为什么要清清除浮动，清除浮动的方式有哪些；
+7.cookies，sessionStorage 和 localStorage 的区别；
+
+8.js数据类型有哪些；
+9.null，undefined的区别；
+10.如何判断一个对象是否属于某个类；
+11.call() 和 .apply() 的作用和区别;
+12.对闭包的理解；
+13.函数柯里化的运用；
+14.JS 怎么实现一个类。怎么实例化这个类；
+15.documen.write和 innerHTML的区别；
+16.什么是闭包（closure），为什么要用它；
+17.如何阻止ie和google或者firfox浏览器的事件冒泡；
+
+18.描述一下React 生命周期；
+19.react实现组件有哪些方式；
+20.shouldComponentUpdate有什么益处；
+21.组件的setState函数被调用之后，发生了什么；
+22.react循环显示li上为什么要加上key属性；
+23.在React生命周期的什么阶段发出ajax更合适；
