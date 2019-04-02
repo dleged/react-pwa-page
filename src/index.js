@@ -11,19 +11,15 @@ import * as serviceWorker from './serviceWorker';
 
 
 class Hello extends React.Component{
-
 	state = {
 		num: 0
 	}
-
 	componentDidMount(){
 		window.hello = this;
 		var i = 0;
 		setInterval(() => {
 			this.setState({
 				num: ++i
-			},function(){
-				console.trace('runtime react state!')
 			})
 		},3000)
 	}

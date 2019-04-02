@@ -9,16 +9,6 @@ class App extends Component {
     orange: ''
   }
 
-  // fetchUrl = (url) =>{
-  // 	return new Promise((res) => {
-  // 		httpRequest(url,function(responseText){
-  // 			let target = responseText.target;
-  // 			if(target.readyState === 4 && target.status === 200){
-  // 				res(target)
-  // 			}
-  // 		})
-  // 	})
-  // }
 
   componentDidMount() {
       this.setState({
