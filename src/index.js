@@ -19,14 +19,13 @@ class Hello extends React.Component{
 		var i = 0;
 		setInterval(() => {
 			this.setState({
-				num: ++i
+				num: Math.random(0,1)
 			})
 		},3000)
 	}
 
-
 	render(){
-		return <h2>hello china 🇨🇳,{this.state.num}</h2>
+		return <h2>hello china 🇨🇳,{this.state.num},{this.state.num}</h2>
 	}
 }
 
