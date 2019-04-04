@@ -9,19 +9,12 @@ import * as serviceWorker from './serviceWorker';
 // let hz = React.createElement('div','','杭州');
 // window.reactDOM = React.createElement('h1',{text:'爱我中华🇨🇳'},zj,hz);
 
-
 class Hello extends React.Component{
 	state = {
 		num: 0
 	}
 	componentDidMount(){
 		window.hello = this;
-		var i = 0;
-		setInterval(() => {
-			this.setState({
-				num: Math.random(0,1)
-			})
-		},3000)
 	}
 
 	render(){

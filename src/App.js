@@ -17,20 +17,6 @@ class App extends Component {
       })
   }
 
-  componentWillMount() {
-    // setInterval(() => {
-    //   this.setState({
-    //     apple: '🍎' + '🍎'.charCodeAt() + Math.random(0,10)
-    //   })
-    //   this.setState({
-    //     watermelon: '🍉' + '🍉'.charCodeAt() + Math.random(0,10)
-    //   })
-    //   this.setState({
-    //     orange: '🍊' + '🍊'.charCodeAt() + Math.random(0,10)
-    //   })
-    // },5000)
-  }
-
   render() {
     let {apple,watermelon,orange}  = this.state;
     return (
